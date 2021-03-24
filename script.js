@@ -25,7 +25,7 @@ function showSlides(n) { //основные переменные действи�
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className= dots[i].className.replace("active","");
-    }
-  slides[slideIndex-1].style.display = "block"; //показание на дисплее действия(переход на новый слайд)
-  dots[slideIndex-1].className+= " active"; //(переход на прошлый слайд)
+  }
+  slides[slideIndex-1].style.display = "block";  //показание на дисплее действия(переход на новый слайд)
+  dots[slideIndex-1].className+= " active";  //(переход на прошлый слайд)
 }
